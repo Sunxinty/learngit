@@ -1,0 +1,21 @@
+$ mkdir folderName 新建folderName文件夹
+
+$ git init 初始化目录
+
+$ cd folderName
+
+$ pwd 显示当前目录
+
+$ git add 添加到仓库
+
+$ git commit -m "content" 提交到仓库并说明
+
+$ git status 查看仓库当前的状态，是否有文件被修改过
+
+$ git diff 查看修改的文件和内容
+
+$ git log 查看历史日志记录
+
+$ git reset --hard HEAD^ 退回到上一个版本（HEAD^^  HEAD~100） HEAD表示当前版本
+
+$ git reflog 记录每一次的命令
