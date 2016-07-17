@@ -1,0 +1,88 @@
+﻿@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+body,h1,h2,h3,h4,h5,h6,p,span,img,a,input,button,textarea,form,ul,li,ol{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #323232;
+}
+a,a:link,a:visited,a:hover,a:active{
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+    color:#646464;
+}
+p,span,b,input,button,textarea,img{
+	color: #646464;
+	border: none;
+	outline: none;
+	display: inline-block;
+}
+img{
+	max-width: 100%;
+}
+li{
+	float: left;
+	list-style-type: none;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.f-weight{
+	font-weight: bold;
+}
+.t-left{
+	text-align: left;
+}
+.t-right{
+	text-align: right;
+}
+.t-center{
+	text-align: center;
+}
+.dis-n{
+	display: none;
+}
+.dis-b{
+	display: inline-block;
+}
+.all-box{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.c-fff,.c-fff p,.c-fff h3,.c-fff h2,.c-fff span,.c-fff h1,.c-fff a,.c-fff h4{
+	color: #fff;
+}
+.bg-fff{
+	background-color: #fff;
+}
+.animate-2{
+	-moz-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	-webkit-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	transition: 0.2s ease;
+}
+.animate-3{
+	-moz-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	-ms-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+.animate-5{
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
