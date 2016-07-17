@@ -23,3 +23,5 @@ $ git reflog 记录每一次的命令
 $ git push -u origin master 第一次推送到远程版本库
 
 $ git push origin master 推送到远程Githib
+
+$ git clone 克隆
