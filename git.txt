@@ -1,27 +1,37 @@
-$ mkdir folderName ĞÂ½¨folderNameÎÄ¼ş¼Ğ
+åœ¨æœ¬åœ°åˆ›å»ºssh keyï¼š
+$ ssh-keygen -t rsa -C "your_email@youremail.com"
+éªŒè¯æ˜¯å¦æˆåŠŸé“¾æ¥git
+$ ssh -T git@github.com
+è®¾ç½®ç”¨æˆ·åå’Œé‚®ç®±
+$ git config --global user.name "your name"
+$ git config --global user.email "your_email@youremail.com"
+æ·»åŠ è¿œç¨‹åœ°å€
+$ git remote add origin git@github.com:yourName/yourRepo.git
 
-$ git init ³õÊ¼»¯Ä¿Â¼
+$ mkdir folderName æ–°å»ºfolderNameæ–‡ä»¶å¤¹
+
+$ git init åˆå§‹åŒ–ç›®å½•
 
 $ cd folderName
 
-$ pwd ÏÔÊ¾µ±Ç°Ä¿Â¼
+$ pwd æ˜¾ç¤ºå½“å‰ç›®å½•
 
-$ git add Ìí¼Óµ½²Ö¿â
+$ git add æ·»åŠ åˆ°ä»“åº“
 
-$ git commit -m "content" Ìá½»µ½²Ö¿â²¢ËµÃ÷
+$ git commit -m "content" æäº¤åˆ°ä»“åº“å¹¶è¯´æ˜
 
-$ git status ²é¿´²Ö¿âµ±Ç°µÄ×´Ì¬£¬ÊÇ·ñÓĞÎÄ¼ş±»ĞŞ¸Ä¹ı
+$ git status æŸ¥çœ‹ä»“åº“å½“å‰çš„çŠ¶æ€ï¼Œæ˜¯å¦æœ‰æ–‡ä»¶è¢«ä¿®æ”¹è¿‡
 
-$ git diff ²é¿´ĞŞ¸ÄµÄÎÄ¼şºÍÄÚÈİ
+$ git diff æŸ¥çœ‹ä¿®æ”¹çš„æ–‡ä»¶å’Œå†…å®¹
 
-$ git log ²é¿´ÀúÊ·ÈÕÖ¾¼ÇÂ¼
+$ git log æŸ¥çœ‹å†å²æ—¥å¿—è®°å½•
 
-$ git reset --hard HEAD^ ÍË»Øµ½ÉÏÒ»¸ö°æ±¾£¨HEAD^^  HEAD~100£© HEAD±íÊ¾µ±Ç°°æ±¾
+$ git reset --hard HEAD^ é€€å›åˆ°ä¸Šä¸€ä¸ªç‰ˆæœ¬ï¼ˆHEAD^^  HEAD~100ï¼‰ HEADè¡¨ç¤ºå½“å‰ç‰ˆæœ¬
 
-$ git reflog ¼ÇÂ¼Ã¿Ò»´ÎµÄÃüÁî
+$ git reflog è®°å½•æ¯ä¸€æ¬¡çš„å‘½ä»¤
 
-$ git push -u origin master µÚÒ»´ÎÍÆËÍµ½Ô¶³Ì°æ±¾¿â
+$ git push -u origin master ç¬¬ä¸€æ¬¡æ¨é€åˆ°è¿œç¨‹ç‰ˆæœ¬åº“
 
-$ git push origin master ÍÆËÍµ½Ô¶³ÌGithib
+$ git push origin master æ¨é€åˆ°è¿œç¨‹Githib
 
-$ git clone ¿ËÂ¡
+$ git clone å…‹éš†
